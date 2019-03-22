@@ -1,31 +1,32 @@
 ## Description
 
-Update the CSS file to reproduce the following:  
-![goal](goal.png)
-
-The alpaca stays at the top left of the screen but must appear in front of the cat image  
-The cat is moved to the top left of the screen  
-The dog must always stay at the same position on the screen  
-The whales must be moved to the bottom left of the screen
-
-## Submission
-
-It will automatically be submitted the next time you push.
+Update only the CSS file to reproduce the following:  
+![goal](goal.gif)
 
 ## Reference
 
-Your HTML should have the following structure:
+Needed CSS properties
 
 ```
-<!DOCTYPE html>
-<html>
-   <head>
-       <link rel="stylesheet" type="text/css" href="style.css">
-   </head>
-   <body>
-      ...
-   </body>
-</html>
+box-shadow
+margin-bottom
+border-radius
+max-width
+box-sizing
+border-top
+text-align
+margin-left
+width
+min-height
+margin-top
+padding
+font-size
+border
+margin
+display
+cursor
+transition
+background
+color
+:hover
 ```
-
-Where style.css is the name of your css file.
