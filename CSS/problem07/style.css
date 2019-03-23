@@ -1,8 +1,14 @@
 .container {
+    display: flex
 }
 
 .smol {
+    height: 150px
 }
 
 .col {
+    text-align: center;
+    border-style: dotted;
+    margin: 20px;
+    padding: 20px;
 }

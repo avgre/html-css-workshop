@@ -7,13 +7,28 @@ img {
 }
 
 #img1 {
+  top: 15px;
+  left: 15px;
+  z-index: 2;
+  position: relative;
 }
 
 #img2 {
+  position: absolute;
+  top:0px;
+  left:0px;
+  z-index: 1;
 }
 
+
 #img3 {
+  left:50%;
+  top: 50%;
+  position: fixed;
 }
 
 #img4 {
+  position: absolute;
+  bottom:0%;
+  right:0%;
 }

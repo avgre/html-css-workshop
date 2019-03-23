@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+}
+.imgsize {
+    height: 100px;
+}
+
+.col {
+    margin: 10px;
+    padding: 10px;
+    border-style: dotted;
+    text-align: center
+}
+.space {
+    margin: 80px;
+}
+
+.title {
+    font-weight: bold;
+}

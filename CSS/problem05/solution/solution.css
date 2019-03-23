@@ -10,7 +10,9 @@
 div {
   background-color: gray;
 }
-
+li {
+  list-style-type: none
+}
 #content {
   text-decoration: underline;
 }
