@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    font-family: Poppins, sans-serif;
+}
+
+.main {
+    display:flex;
+    background-image: url("/Users/avtargrewal/Decode/html-css-workshop/CSS/problem15/imgs/bg.jpg");
+    background-position:center center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.center-content {
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
