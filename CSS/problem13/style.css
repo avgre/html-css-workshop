@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+}
+
+.main {
+  min-height: calc(100vh- 100px);
+}
+
+.header {
+  height: 50px;
+  background-color: gray;
+  color: white;
+}
+
+.justify {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

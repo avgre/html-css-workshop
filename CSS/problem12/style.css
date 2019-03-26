@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.justify {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    height: 50px;
+    color: white; 
+    background-color: gray;
+}

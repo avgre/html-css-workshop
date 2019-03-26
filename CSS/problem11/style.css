@@ -1,0 +1,26 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 50px;
+    background-color: gray;
+    color: white;
+}
+
+.justify {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+
+.mid {
+    flex: 1;
+}
