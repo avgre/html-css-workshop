@@ -4,16 +4,38 @@ body {
 }
 
 .head {
-    border: 2px solid gray;
+    color: gray;
+    border: 1px solid gray;
     border-radius: 6px;
+    padding: 5px 10px;
+}
+
+.cont {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cont > h2 {
+    margin: 10px;
+}
+
+.cont > p {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.link {
+    text-decoration: none;
     display: inline-block;
-    padding: 10px;
+    color: #0070c9;
 }
 
-.content {
-
+.link:hover {
+    text-decoration: underline;
 }
 
-#link {
-
-}
+.link::after {
+    content: '>';
+    padding-left: 15px;
+    display: inline-block;
+  }

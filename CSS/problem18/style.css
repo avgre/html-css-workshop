@@ -13,4 +13,10 @@ body {
 }
 
 .cool {
+  border-radius: 7px;
+  background-color: rgb(64, 140, 240);
+  font-size: 1rem;
+  box-shadow: 2px 2px 30px #888888;
+  color: white;
+  padding: 20px 23px;
 }
